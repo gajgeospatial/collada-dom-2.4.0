@@ -1,0 +1,717 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:18 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\2.8.12.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:19 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\2.8.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\2.8.12.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\2.8.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec408208434.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:20 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec408208434.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec408208434.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec408208434.dir\Debug\cmTryCom.B82FA1DE.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec408208434.dir\Debug\cmTryCom.B82FA1DE.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec408208434.dir\Debug\\" /Fd"cmTryCompileExec408208434.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec408208434.dir\Debug\\" /Fd"cmTryCompileExec408208434.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec408208434.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec408208434.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec408208434.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec408208434.dir\Debug\testCCompiler.obj
+  cmTryCompileExec408208434.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec408208434.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec408208434.dir\Debug\cmTryCom.B82FA1DE.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec408208434.dir\Debug\cmTryCom.B82FA1DE.tlog\cmTryCompileExec408208434.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec408208434.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2454501431.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:21 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2454501431.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2454501431.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2454501431.dir\Debug\cmTryCom.FA11A68C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2454501431.dir\Debug\cmTryCom.FA11A68C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2454501431.dir\Debug\\" /Fd"cmTryCompileExec2454501431.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2454501431.dir\Debug\\" /Fd"cmTryCompileExec2454501431.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2454501431.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2454501431.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2454501431.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2454501431.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec2454501431.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2454501431.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2454501431.dir\Debug\cmTryCom.FA11A68C.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2454501431.dir\Debug\cmTryCom.FA11A68C.tlog\cmTryCompileExec2454501431.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2454501431.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec660136790.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:22 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec660136790.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec660136790.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec660136790.dir\Debug\cmTryCom.5CE1118F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec660136790.dir\Debug\cmTryCom.5CE1118F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec660136790.dir\Debug\\" /Fd"cmTryCompileExec660136790.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec660136790.dir\Debug\\" /Fd"cmTryCompileExec660136790.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec660136790.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec660136790.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec660136790.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec660136790.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec660136790.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec660136790.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec660136790.dir\Debug\cmTryCom.5CE1118F.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec660136790.dir\Debug\cmTryCom.5CE1118F.tlog\cmTryCompileExec660136790.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec660136790.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec645798916.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:22 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec645798916.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec645798916.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec645798916.dir\Debug\cmTryCom.6B7EC81B.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec645798916.dir\Debug\cmTryCom.6B7EC81B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec645798916.dir\Debug\\" /Fd"cmTryCompileExec645798916.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec645798916.dir\Debug\\" /Fd"cmTryCompileExec645798916.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec645798916.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec645798916.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec645798916.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec645798916.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec645798916.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec645798916.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec645798916.dir\Debug\cmTryCom.6B7EC81B.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec645798916.dir\Debug\cmTryCom.6B7EC81B.tlog\cmTryCompileExec645798916.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec645798916.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1630819506.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:28 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1630819506.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1630819506.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1630819506.dir\Debug\cmTryCom.7245E64C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1630819506.dir\Debug\cmTryCom.7245E64C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1630819506.dir\Debug\\" /Fd"cmTryCompileExec1630819506.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1630819506.dir\Debug\\" /Fd"cmTryCompileExec1630819506.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1630819506.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1630819506.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1630819506.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1630819506.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1630819506.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1630819506.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1630819506.dir\Debug\cmTryCom.7245E64C.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1630819506.dir\Debug\cmTryCom.7245E64C.tlog\cmTryCompileExec1630819506.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1630819506.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.60
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1404903772.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:29 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1404903772.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1404903772.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1404903772.dir\Debug\cmTryCom.CDDDB44A.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1404903772.dir\Debug\cmTryCom.CDDDB44A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1404903772.dir\Debug\\" /Fd"cmTryCompileExec1404903772.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1404903772.dir\Debug\\" /Fd"cmTryCompileExec1404903772.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1404903772.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1404903772.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1404903772.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1404903772.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1404903772.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1404903772.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1404903772.dir\Debug\cmTryCom.CDDDB44A.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1404903772.dir\Debug\cmTryCom.CDDDB44A.tlog\cmTryCompileExec1404903772.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1404903772.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.57
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3109487895.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:29 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3109487895.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3109487895.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3109487895.dir\Debug\cmTryCom.ADEAAB51.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3109487895.dir\Debug\cmTryCom.ADEAAB51.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3109487895.dir\Debug\\" /Fd"cmTryCompileExec3109487895.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3109487895.dir\Debug\\" /Fd"cmTryCompileExec3109487895.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3109487895.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3109487895.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3109487895.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3109487895.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3109487895.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3109487895.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3109487895.dir\Debug\cmTryCom.ADEAAB51.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3109487895.dir\Debug\cmTryCom.ADEAAB51.tlog\cmTryCompileExec3109487895.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3109487895.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1761009388.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:30 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1761009388.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1761009388.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1761009388.dir\Debug\cmTryCom.F69D8BBA.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1761009388.dir\Debug\cmTryCom.F69D8BBA.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1761009388.dir\Debug\\" /Fd"cmTryCompileExec1761009388.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1761009388.dir\Debug\\" /Fd"cmTryCompileExec1761009388.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1761009388.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1761009388.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1761009388.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1761009388.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1761009388.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1761009388.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1761009388.dir\Debug\cmTryCom.F69D8BBA.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1761009388.dir\Debug\cmTryCom.F69D8BBA.tlog\cmTryCompileExec1761009388.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1761009388.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+Determining if the include file windows.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1027826390.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:31 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1027826390.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1027826390.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1027826390.dir\Debug\cmTryCom.2B13A091.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1027826390.dir\Debug\cmTryCom.2B13A091.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1027826390.dir\Debug\\" /Fd"cmTryCompileExec1027826390.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1027826390.dir\Debug\\" /Fd"cmTryCompileExec1027826390.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1027826390.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1027826390.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1027826390.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1027826390.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1027826390.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1027826390.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1027826390.dir\Debug\cmTryCom.2B13A091.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1027826390.dir\Debug\cmTryCom.2B13A091.tlog\cmTryCompileExec1027826390.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1027826390.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2120342232.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:34 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2120342232.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2120342232.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2120342232.dir\Debug\cmTryCom.04537796.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2120342232.dir\Debug\cmTryCom.04537796.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmove /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2120342232.dir\Debug\\" /Fd"cmTryCompileExec2120342232.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmove /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2120342232.dir\Debug\\" /Fd"cmTryCompileExec2120342232.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2120342232.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2120342232.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2120342232.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2120342232.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec2120342232.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2120342232.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2120342232.dir\Debug\cmTryCom.04537796.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2120342232.dir\Debug\cmTryCom.04537796.tlog\cmTryCompileExec2120342232.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2120342232.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2384978005.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:35 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2384978005.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2384978005.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2384978005.dir\Debug\cmTryCom.1CF172D8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2384978005.dir\Debug\cmTryCom.1CF172D8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2384978005.dir\Debug\\" /Fd"cmTryCompileExec2384978005.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2384978005.dir\Debug\\" /Fd"cmTryCompileExec2384978005.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2384978005.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2384978005.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2384978005.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2384978005.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec2384978005.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2384978005.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2384978005.dir\Debug\cmTryCom.1CF172D8.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2384978005.dir\Debug\cmTryCom.1CF172D8.tlog\cmTryCompileExec2384978005.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2384978005.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2099134124.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:35 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2099134124.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2099134124.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2099134124.dir\Debug\cmTryCom.0068CE7D.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2099134124.dir\Debug\cmTryCom.0068CE7D.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2099134124.dir\Debug\\" /Fd"cmTryCompileExec2099134124.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2099134124.dir\Debug\\" /Fd"cmTryCompileExec2099134124.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2099134124.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2099134124.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2099134124.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2099134124.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec2099134124.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2099134124.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2099134124.dir\Debug\cmTryCom.0068CE7D.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2099134124.dir\Debug\cmTryCom.0068CE7D.tlog\cmTryCompileExec2099134124.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2099134124.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+Determining if the function _strtoi64 exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec405963968.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:37 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec405963968.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec405963968.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec405963968.dir\Debug\cmTryCom.33B4A267.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec405963968.dir\Debug\cmTryCom.33B4A267.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strtoi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec405963968.dir\Debug\\" /Fd"cmTryCompileExec405963968.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strtoi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec405963968.dir\Debug\\" /Fd"cmTryCompileExec405963968.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec405963968.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec405963968.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec405963968.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec405963968.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec405963968.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec405963968.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec405963968.dir\Debug\cmTryCom.33B4A267.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec405963968.dir\Debug\cmTryCom.33B4A267.tlog\cmTryCompileExec405963968.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec405963968.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1998922861.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:37 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1998922861.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1998922861.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1998922861.dir\Debug\cmTryCom.1053F860.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1998922861.dir\Debug\cmTryCom.1053F860.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1998922861.dir\Debug\\" /Fd"cmTryCompileExec1998922861.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1998922861.dir\Debug\\" /Fd"cmTryCompileExec1998922861.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1998922861.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1998922861.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1998922861.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1998922861.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1998922861.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1998922861.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1998922861.dir\Debug\cmTryCom.1053F860.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1998922861.dir\Debug\cmTryCom.1053F860.tlog\cmTryCompileExec1998922861.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1998922861.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Determining size of long long passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3536803468.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:38 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3536803468.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3536803468.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3536803468.dir\Debug\cmTryCom.6F50FEA2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3536803468.dir\Debug\cmTryCom.6F50FEA2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3536803468.dir\Debug\\" /Fd"cmTryCompileExec3536803468.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CheckTypeSize\LONG_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3536803468.dir\Debug\\" /Fd"cmTryCompileExec3536803468.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CheckTypeSize\LONG_LONG.c"
+  
+  LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3536803468.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3536803468.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3536803468.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3536803468.dir\Debug\LONG_LONG.obj
+  cmTryCompileExec3536803468.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3536803468.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3536803468.dir\Debug\cmTryCom.6F50FEA2.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3536803468.dir\Debug\cmTryCom.6F50FEA2.tlog\cmTryCompileExec3536803468.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3536803468.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1277769995.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:39 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1277769995.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1277769995.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1277769995.dir\Debug\cmTryCom.57D905F7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1277769995.dir\Debug\cmTryCom.57D905F7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1277769995.dir\Debug\\" /Fd"cmTryCompileExec1277769995.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1277769995.dir\Debug\\" /Fd"cmTryCompileExec1277769995.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_LONG.c"
+  
+  UNSIGNED_LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1277769995.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1277769995.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1277769995.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1277769995.dir\Debug\UNSIGNED_LONG_LONG.obj
+  cmTryCompileExec1277769995.vcxproj -> D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1277769995.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1277769995.dir\Debug\cmTryCom.57D905F7.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1277769995.dir\Debug\cmTryCom.57D905F7.tlog\cmTryCompileExec1277769995.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1277769995.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+

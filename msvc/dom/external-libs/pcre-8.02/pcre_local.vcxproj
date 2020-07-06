@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7C1733C2-C5DB-44B0-8536-788451258234}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>pcre_local</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pcre_locald</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pcre_local</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;..\..\..\..\dom\external-libs\pcre-8.02;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DOM_INCLUDE_LIBXML;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DOM_INCLUDE_LIBXML;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\..\..\..\dom\external-libs\pcre-8.02;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>.\;..\..\..\..\dom\external-libs\pcre-8.02;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;..\..\..\..\dom\external-libs\pcre-8.02;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DOM_INCLUDE_LIBXML;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DOM_INCLUDE_LIBXML;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\..\..\..\dom\external-libs\pcre-8.02;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>.\;..\..\..\..\dom\external-libs\pcre-8.02;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre.h" />
+    <ClInclude Include="..\..\..\..\dom\external-libs\pcre-8.02\config.h" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_chartables.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_compile.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_config.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_dfa_exec.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_exec.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_fullinfo.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_get.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_globals.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_info.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_newline.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_maketables.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_ord2utf8.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_refcount.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_study.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_tables.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_try_flipped.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_ucd.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_valid_utf8.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_version.c" />
+    <ClCompile Include="..\..\..\..\dom\external-libs\pcre-8.02\pcre_xclass.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

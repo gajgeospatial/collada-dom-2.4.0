@@ -1,0 +1,36 @@
+# CMake generation dependency list for this directory.
+D:/Development/op3d_active/collada-dom-2.4.0/CMakeLists.txt
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/2.8.12.2/CMakeSystem.cmake
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/2.8.12.2/CMakeCCompiler.cmake
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/2.8.12.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPkgConfig.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindBoost.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindZLIB.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindLibXml2.cmake
+D:/Development/op3d_active/collada-dom-2.4.0/collada_dom-config.cmake.in
+D:/Development/op3d_active/collada-dom-2.4.0/collada_dom-config-version.cmake.in
+D:/Development/op3d_active/collada-dom-2.4.0/cmake-modules/cmake_uninstall.cmake.in

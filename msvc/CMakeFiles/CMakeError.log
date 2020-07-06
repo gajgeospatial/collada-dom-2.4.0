@@ -1,0 +1,242 @@
+Determining if the include file dirent.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1020018362.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:28 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1020018362.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1020018362.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1020018362.dir\Debug\cmTryCom.F0B3E0B6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1020018362.dir\Debug\cmTryCom.F0B3E0B6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1020018362.dir\Debug\\" /Fd"cmTryCompileExec1020018362.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1020018362.dir\Debug\\" /Fd"cmTryCompileExec1020018362.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1020018362.vcxproj]
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1020018362.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1020018362.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1020018362.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.35
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec344947253.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:31 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec344947253.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec344947253.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec344947253.dir\Debug\cmTryCom.770EA46D.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec344947253.dir\Debug\cmTryCom.770EA46D.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec344947253.dir\Debug\\" /Fd"cmTryCompileExec344947253.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec344947253.dir\Debug\\" /Fd"cmTryCompileExec344947253.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec344947253.vcxproj]
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec344947253.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec344947253.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec344947253.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.31
+
+
+Determining if the include file type_traits.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1447340038.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:33 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1447340038.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1447340038.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1447340038.dir\Debug\cmTryCom.188D0199.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1447340038.dir\Debug\cmTryCom.188D0199.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1447340038.dir\Debug\\" /Fd"cmTryCompileExec1447340038.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1447340038.dir\Debug\\" /Fd"cmTryCompileExec1447340038.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'type_traits.h': No such file or directory [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1447340038.vcxproj]
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1447340038.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1447340038.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'type_traits.h': No such file or directory [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1447340038.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.32
+
+
+Determining if the include file bits/type_traits.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3704851366.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:33 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3704851366.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3704851366.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3704851366.dir\Debug\cmTryCom.555C9EFC.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3704851366.dir\Debug\cmTryCom.555C9EFC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3704851366.dir\Debug\\" /Fd"cmTryCompileExec3704851366.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3704851366.dir\Debug\\" /Fd"cmTryCompileExec3704851366.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'bits/type_traits.h': No such file or directory [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3704851366.vcxproj]
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3704851366.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3704851366.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'bits/type_traits.h': No such file or directory [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3704851366.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.31
+
+
+Determining if the function bcopy exists failed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3157436420.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:33 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3157436420.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3157436420.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3157436420.dir\Debug\cmTryCom.66A37026.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3157436420.dir\Debug\cmTryCom.66A37026.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=bcopy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3157436420.dir\Debug\\" /Fd"cmTryCompileExec3157436420.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=bcopy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3157436420.dir\Debug\\" /Fd"cmTryCompileExec3157436420.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3157436420.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3157436420.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3157436420.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3157436420.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _bcopy referenced in function _main [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3157436420.vcxproj]
+D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3157436420.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3157436420.vcxproj]
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3157436420.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3157436420.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _bcopy referenced in function _main [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3157436420.vcxproj]
+  D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3157436420.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3157436420.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.46
+
+
+Determining if the function strtoq exists failed with the following output:
+Change Dir: D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2742996858.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/21/2015 10:47:36 AM.
+Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2742996858.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2742996858.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2742996858.dir\Debug\cmTryCom.C57894B0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2742996858.dir\Debug\cmTryCom.C57894B0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoq /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2742996858.dir\Debug\\" /Fd"cmTryCompileExec2742996858.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoq /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2742996858.dir\Debug\\" /Fd"cmTryCompileExec2742996858.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2742996858.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2742996858.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2742996858.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2742996858.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strtoq referenced in function _main [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2742996858.vcxproj]
+D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2742996858.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2742996858.vcxproj]
+Done Building Project "D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2742996858.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2742996858.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strtoq referenced in function _main [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2742996858.vcxproj]
+  D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2742996858.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\collada-dom-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2742996858.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.46
+
+

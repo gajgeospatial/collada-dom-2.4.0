@@ -1,0 +1,11 @@
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/ALL_BUILD.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/ZERO_CHECK.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/dom/CMakeFiles/collada-dom.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/dom/src/1.4/CMakeFiles/colladadom141.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/dom/src/1.5/CMakeFiles/colladadom150.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/dom/external-libs/minizip-1.1/CMakeFiles/minizip.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/dom/external-libs/pcre-8.02/CMakeFiles/pcre_local.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/dom/external-libs/pcre-8.02/CMakeFiles/pcrecpp_local.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/dom/external-libs/pcre-8.02/CMakeFiles/pcregrep.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/dom/external-libs/pcre-8.02/CMakeFiles/pcreposix_local.dir
+D:/Development/op3d_active/collada-dom-2.4.0/msvc/CMakeFiles/uninstall.dir

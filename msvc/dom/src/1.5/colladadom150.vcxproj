@@ -1,0 +1,1323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2010_Debug|Win32">
+      <Configuration>vs2010_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2010_Debug|x64">
+      <Configuration>vs2010_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2010_Release|Win32">
+      <Configuration>vs2010_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2010_Release|x64">
+      <Configuration>vs2010_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2012_Debug|Win32">
+      <Configuration>vs2012_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2012_Debug|x64">
+      <Configuration>vs2012_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2012_Release|Win32">
+      <Configuration>vs2012_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2012_Release|x64">
+      <Configuration>vs2012_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2015_Debug|Win32">
+      <Configuration>vs2015_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2015_Debug|x64">
+      <Configuration>vs2015_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2015_Release|Win32">
+      <Configuration>vs2015_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2015_Release|x64">
+      <Configuration>vs2015_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Debug|Win32">
+      <Configuration>vs2017_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Debug|x64">
+      <Configuration>vs2017_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Release|Win32">
+      <Configuration>vs2017_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Release|x64">
+      <Configuration>vs2017_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2019_Debug|Win32">
+      <Configuration>vs2019_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2019_Debug|x64">
+      <Configuration>vs2019_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2019_Release|Win32">
+      <Configuration>vs2019_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2019_Release|x64">
+      <Configuration>vs2019_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{0EC23DC1-0F33-4D05-BB85-AA38E1ABAC2D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>colladadom150</ProjectName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">colladadom150</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|Win32'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">colladadom150</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">colladadom150</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\$(PCRE_DIR);..\..\..\$(PCRE_DIR)\msvc;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PCRE_STATIC;COLLADA_DOM_SUPPORT141;COLLADA_DOM_SUPPORT150;COLLADA_DOM_DAEFLOAT_IS64;COLLADA_DOM_NAMESPACE;BOOST_ALL_DYN_LINK;BOOST_ALL_NO_LIB;DOM_DYNAMIC;DOM_EXPORT;DOM_INCLUDE_LIBXML;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..\..\dom\external-libs\pcre-8.02;..\..\..\..\..\$(ZLIB_DIR);..\..\..\..\dom\external-libs\minizip-1.1;$(BOOST_DIR);..\..\..\..\..\$(LIBXML2_DIR)\Include;..\..\..\..\dom\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domAccessor.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domAnimation.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domAnimation_clip.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domAny.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domArticulated_system.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domAsset.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domAxis.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domAxis_constraint.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domBind_joint_axis.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domBind_kinematics_model.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domBind_material.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domBool_array.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domBox.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domBrep.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCamera.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCapsule.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCg_array.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCg_newparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCg_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCg_pass.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCg_setparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCg_user.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domChannel.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCircle.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCOLLADA.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCommon_bool_or_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCommon_float2_or_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCommon_float_or_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCommon_int_or_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCommon_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCommon_sidref_or_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCone.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domConstants.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domController.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domConvex_mesh.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCurve.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCurves.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domCylinder.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domEdges.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domEffect.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domEllipse.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domEllipsoid.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domExtra.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFaces.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFloat_array.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domForce_field.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFormula.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFormula_newparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFormula_setparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFormula_technique.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_annotate.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_clearcolor.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_cleardepth.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_clearstencil.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_code.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_colortarget.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_common_color_or_texture.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_common_float_or_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_common_newparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_common_transparent.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_depthtarget.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_include.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_newparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_profile.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_rendertarget.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_sampler.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_sampler1D.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_sampler2D.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_sampler3D.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_samplerCUBE.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_samplerDEPTH.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_samplerRECT.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_sampler_states.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_setparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_sources.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_stenciltarget.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domFx_target.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGeometry.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles2_newparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles2_pass.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles2_pipeline_settings.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles2_program.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles2_shader.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles2_value.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_newparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_pipeline_settings.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_sampler.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_sampler_states.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_texcombiner_argument_alpha.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_texcombiner_argument_rgb.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_texcombiner_command.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_texcombiner_command_alpha.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_texcombiner_command_rgb.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_texenv_command.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_texture_constant.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGles_texture_pipeline.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGlsl_array.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGlsl_newparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGlsl_program.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGlsl_shader.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGlsl_value.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domGl_pipeline_settings.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domHyperbola.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domIdref_array.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domImage.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domImage_mips.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domImage_source.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInput_global.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInput_local.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInput_local_offset.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_articulated_system.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_camera.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_controller.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_effect.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_force_field.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_formula.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_geometry.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_image.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_joint.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_kinematics_model.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_kinematics_scene.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_light.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_material.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_node.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_physics_material.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_physics_model.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_rigid_body.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_rigid_constraint.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInstance_with_extra.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domInt_array.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domJoint.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domJoint_limits.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_axis_info.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_bind.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_connect_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_frame.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_index.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_limits.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_model.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_model_technique.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_newparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_param.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_scene.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_setparam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domKinematics_technique.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_animations.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_animation_clips.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_articulated_systems.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_cameras.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_controllers.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_effects.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_force_fields.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_formulas.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_geometries.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_images.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_joints.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_kinematics_models.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_kinematics_scenes.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_lights.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_materials.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_nodes.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_physics_materials.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_physics_models.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_physics_scenes.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLibrary_visual_scenes.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLight.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLimits_sub.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLine.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLines.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLinestrips.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLink.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domLookat.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domMaterial.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domMatrix.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domMesh.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domMinmax.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domMorph.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domMotion.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domMotion_axis_info.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domMotion_effector_info.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domMotion_technique.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domName_array.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domNode.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domNurbs.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domNurbs_surface.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domOrient.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domOrigin.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domP.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domParabola.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domParam.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domPcurves.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domPhysics_material.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domPhysics_model.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domPhysics_scene.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domPlane.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domPolygons.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domPolylist.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domProfile_bridge.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domProfile_cg.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domProfile_common.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domProfile_gles.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domProfile_gles2.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domProfile_glsl.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domRigid_body.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domRigid_constraint.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domRotate.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSampler.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domScale.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domShells.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSidref_array.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSkew.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSkin.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSolids.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSource.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSphere.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSpline.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSurface.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSurfaces.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSurface_curves.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domSwept_surface.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTargetable_float.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTargetable_float3.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTargetable_float4.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTechnique.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domToken_array.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTorus.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTranslate.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTriangles.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTrifans.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTristrips.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domTypes.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domVertices.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domVisual_scene.cpp" />
+    <ClCompile Include="..\..\..\..\dom\src\1.5\dom\domWires.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
