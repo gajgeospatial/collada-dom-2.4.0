@@ -963,7 +963,7 @@
     </Midl>
     <Link>
       <AdditionalOptions> /debug %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;minizip.lib;pcrecpp.lib;zlib.lib;boost_filesystem-vc$(PlatformToolsetVersion)-mt-gd-$(BOOST_VER).lib;boost_system-vc$(PlatformToolsetVersion)-mt-gd-$(BOOST_VER).lib;libxml2.lib;colladadom150.lib;colladadom141.lib;pcre.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;collada_minizip.lib;pcrecpp.lib;zlib.lib;boost_filesystem-vc$(PlatformToolsetVersion)-mt-gd-$(BOOST_VER).lib;boost_system-vc$(PlatformToolsetVersion)-mt-gd-$(BOOST_VER).lib;libxml2.lib;colladadom150.lib;colladadom141.lib;pcre.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\..\$(PCRE_DIR)\msvc_static\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(BOOST_DIR)\stage\$(Platform)\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
@@ -1008,7 +1008,7 @@
     </Midl>
     <Link>
       <AdditionalOptions> /debug %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;minizip.lib;pcrecpp.lib;zlib.lib;boost_filesystem-vc$(PlatformToolsetVersion)-mt-gd-$(BOOST_VER).lib;boost_system-vc$(PlatformToolsetVersion)-mt-gd-$(BOOST_VER).lib;libxml2.lib;colladadom150.lib;colladadom141.lib;pcre.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;collada_minizip.lib;pcrecpp.lib;zlib.lib;boost_filesystem-vc$(PlatformToolsetVersion)-mt-gd-$(BOOST_VER).lib;boost_system-vc$(PlatformToolsetVersion)-mt-gd-$(BOOST_VER).lib;libxml2.lib;colladadom150.lib;colladadom141.lib;pcre.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\..\$(PCRE_DIR)\msvc_static\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(BOOST_DIR)\stage\$(Platform)\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
@@ -1020,6 +1020,11 @@
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
+    <PostBuildEvent>
+      <Command>if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).pdb $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -1593,7 +1598,7 @@
     </Midl>
     <Link>
       <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;minizip.lib;pcrecpp.lib;zlib.lib;boost_filesystem-vc$(PlatformToolsetVersion)-mt-$(BOOST_VER).lib;boost_system-vc$(PlatformToolsetVersion)-mt-$(BOOST_VER).lib;libxml2.lib;colladadom150.lib;colladadom141.lib;pcre.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;collada_minizip.lib;pcrecpp.lib;zlib.lib;boost_filesystem-vc$(PlatformToolsetVersion)-mt-$(BOOST_VER).lib;boost_system-vc$(PlatformToolsetVersion)-mt-$(BOOST_VER).lib;libxml2.lib;colladadom150.lib;colladadom141.lib;pcre.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\..\$(PCRE_DIR)\msvc_static\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(BOOST_DIR)\stage\$(Platform)\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
@@ -1638,7 +1643,7 @@
     </Midl>
     <Link>
       <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;minizip.lib;pcrecpp.lib;zlib.lib;boost_filesystem-vc$(PlatformToolsetVersion)-mt-$(BOOST_VER).lib;boost_system-vc$(PlatformToolsetVersion)-mt-$(BOOST_VER).lib;libxml2.lib;colladadom150.lib;colladadom141.lib;pcre.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;collada_minizip.lib;pcrecpp.lib;zlib.lib;boost_filesystem-vc$(PlatformToolsetVersion)-mt-$(BOOST_VER).lib;boost_system-vc$(PlatformToolsetVersion)-mt-$(BOOST_VER).lib;libxml2.lib;colladadom150.lib;colladadom141.lib;pcre.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\..\$(PCRE_DIR)\msvc_static\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(BOOST_DIR)\stage\$(Platform)\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
@@ -1650,6 +1655,11 @@
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
+    <PostBuildEvent>
+      <Command>if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\bin   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\bin
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\dom\src\dae\dae.cpp" />

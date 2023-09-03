@@ -43,6 +43,7 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccLocalPath>SAK</SccLocalPath>
     <SccProvider>SAK</SccProvider>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -262,8 +263,8 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">minizip</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">minizip</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">minizip</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">minizip</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">minizip</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">collada_minizip</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">collada_minizip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">.lib</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">.lib</TargetExt>
@@ -318,8 +319,8 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">minizip</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">minizip</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">minizip</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">minizip</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">minizip</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">collada_minizip</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">collada_minizip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">.lib</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">.lib</TargetExt>
